@@ -1,0 +1,3 @@
+AddIntent what is {x} plus {y}
+AddIntent what is the sum of {x} and {y}
+AddIntent what is the sum of {x} plus {y}

@@ -1,0 +1,15 @@
+{
+    "intents": [
+    {
+        "intent": "AddIntent",
+        "slots": [
+        {
+            "name": "x",
+            "type": "AMAZON.NUMBER"
+        },
+        {
+            "name": "y",
+            "type": "AMAZON.NUMBER"
+        }]
+    }]
+}
