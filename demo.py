@@ -10,7 +10,8 @@ logging.getLogger("flask_ask").setLevel(logging.DEBUG)
 
 @ask.launch
 def welcome():
-    return statement("Hello PyLadies. Welcome to today's presentation: Flask-Ask, an Alexa Skills Kit framework for Python")
+    greeting = "Hello PyLadies. Welcome to today's presentation: Flask-Ask, an Alexa Skills Kit framework for Python"
+    return statement(greeting)
 
 
 @ask.intent("AddIntent")
